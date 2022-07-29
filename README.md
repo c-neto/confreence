@@ -25,24 +25,7 @@ docker          | 19.03.11
 │ └── source                            # Directory that concentrates the project's source code
 │ ├── conf.py                           # sphinx configuration file
 │ ├── doc                               # Directory containing all .rst files, containing the contributors report
-│ │ ├── dev                             # Reports from employees with a Development role
-│ │ │ ├── employers-off                 # Legacy reports from former employees
-│ │ │ │ ├── <LAST-DAY-OF-COLABORATOR-YYYY-MM-DD>-<FULL-NAME-OF-CONTRIBUTOR>     # Directory that concentrates the content of the contributor. This directory receives the last day of work concatenated with the full name without spaces and special characters of the collaborator
-│ │ │ │ | ├── assets                    # [OPTIONAL] Directory containing image files used in reports
-│ │ │ │ | | └── *.jpg|png|csv           # Static files possibly used in reports
-│ │ │ │ | ├── report-<YEAR>.rst         # reports separated by year
-│ │ │ │ | └── main.rst                  # .rst file containing professional information
-│ │ │ │ ├── _index.rst                  # .rst file that contains the index for the present section, that of former collaborators
-│ │ │ │ └── ...                         # Too many directories for other ex-collaborators with the same structure...
-│ │ │ └── employers-on                  # Reports from current employees
-│ │ │ ├── <FULL-NAME-of-contributor>    # [OPTIONAL] Directory that concentrates the content of the contributor. This directory receives its full name without spaces and special characters
-│ │ │ | ├── assets                      # Directory containing image files used in reports
-│ │ │ | | └── *.jpg|png|csv             # Static files possibly used in reports
-│ │ │ │ ├── report-<YEAR>.rst           # reports separated by year
-│ │ │ | └── main.rst                    # .rst file containing professional information
-│ │ │ ├── _index.rst                    # .rst file that contains the index for the present section, that of former collaborators
-│ │ │ └── ...                           # Too many directories for other ex-collaborators with the same structure...
-│ │ ├── below                           # Reports from employees with an infrastructure position
+│ │ ├── <TEAM>                          # Reports from employees
 │ │ | ├── employers-off                 # Legacy reports from former employees
 │ │ | │ ├── <LAST-DAY-OF-CONTRIBUTOR-YYYY-MM-DD>-<FULL-NAME-OF-CONTRIBUTOR>       # Directory that concentrates the content of the contributor. This directory receives the last day of work concatenated with the full name without spaces and special characters of the collaborator
 │ │ | │ | ├── assets                    # [OPTIONAL] Directory containing image files used in reports
